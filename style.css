@@ -123,6 +123,7 @@ footer {
     margin-top: 30vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     min-width: 800px;
+    
 }
 footer div {
     border-bottom: 3px solid transparent;
@@ -131,6 +132,7 @@ footer div {
     color: white;
     width: 800px;
     margin: 20px auto 0 auto;
+    padding: 20px;
 }
 footer div a {
     border-bottom: 3px solid transparent;
