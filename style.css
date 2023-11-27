@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans:wght@300;500;600&family=Oswald:wght@300;400&display=swap');
+
+body {
+
+    background-image: url(img/bg.png);
+    background-size: 2600px;
+    background-repeat: no-repeat;
+
+    
+}
+.appmain {
+    height: 1500px;
+
+}
+.white {
+    background-color: white;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.navbar {
+
+    text-align: center;
+    
+}
+.title {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 800px;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+hr {
+    color: black;
+    border: none;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title2 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    width: 800px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.title3 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    width: 800px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.projecttitle {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.navbar a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.doublecontainer {
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+.contmain {
+    display: flex;
+    flex-direction: row;
+
+    margin:auto;
+    
+}
+.doublecitem {
+    margin: 20px 40px 0px 40px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    left: -35px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.doublecitem img {
+    width: 300px;
+    height: 220px;
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: #4fa5b7;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.doublecitem p {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    background-color: #4fa5b7;
+    height: 200px;
+    margin-top: 30vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+footer div {
+    border-bottom: 3px solid transparent;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    width: 800px;
+    margin: 20px auto 0 auto;
+}
+footer div a {
+    border-bottom: 3px solid transparent;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
