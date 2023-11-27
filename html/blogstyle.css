@@ -41,8 +41,8 @@ footer {
     height: 200px;
     margin-top: 30vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    min-width: 800px;
-    width: 100vw;
+    min-width: 1000px;
+
 }
 .imgcontainer p{
     font-family: 'Lora', serif;
