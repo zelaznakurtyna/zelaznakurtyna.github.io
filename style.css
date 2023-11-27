@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans:wght@300;500;600&family=Oswald:wght@300;400&display=swap');
 
+@media (max-width: 800px) {
+    body {
+      width: 1000px;
+      margin: 0 auto;
+    }
+  }
+
 body {
 
     background-image: url(img/bg.png);
@@ -132,7 +139,6 @@ footer div {
     color: white;
     width: 800px;
     margin: 20px auto 0 auto;
-    padding: 20px;
 }
 footer div a {
     border-bottom: 3px solid transparent;
