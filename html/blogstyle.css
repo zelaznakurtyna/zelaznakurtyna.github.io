@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans:wght@300;500;600&family=Oswald:wght@300;400&display=swap');
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   body {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
   }
 }
