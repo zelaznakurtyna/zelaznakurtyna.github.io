@@ -37,11 +37,11 @@ body {
 }
 footer {
     display: flex;
-    background-color: #00d5ff;
+    background-color: #4fa5b7;
     height: 200px;
     margin-top: 30vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    min-width: 1000px;
+    min-width: 100px;
 
 }
 .imgcontainer p{
