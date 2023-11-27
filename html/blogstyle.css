@@ -9,6 +9,9 @@ body {
   flex-direction: column;
   
 }
+.blogtext {
+  min-width: 800px;
+}
 .imgcontainer {
     display: block;
     margin: auto;
@@ -28,12 +31,14 @@ footer {
     height: 200px;
     margin-top: 30vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    min-width: 800px;
 }
 .imgcontainer p{
     font-family: 'Lora', serif;
     font-weight: 500;
     font-size: 13px;
     color: gray;
+    min-width: 800px;
 }
 p {
     font-family: 'Lora', serif;
@@ -49,6 +54,7 @@ p span {
     
 }
 .blogmain {
+  min-width: 800px;
     width: 800px;
     margin: auto;
 }
@@ -56,6 +62,7 @@ p span {
   overflow: hidden;
   background-color: #4fa5b7;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-width: 800px;
 }
 
 .topnav a {
@@ -70,6 +77,7 @@ p span {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 600;
   color: white;
+  
 }
 
 footer div {
