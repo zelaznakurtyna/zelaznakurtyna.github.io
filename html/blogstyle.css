@@ -73,8 +73,7 @@ p span {
   overflow: hidden;
   background-color: #4fa5b7;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  min-width: 800px;
-  width: 100vw;
+  min-width: 1000px;
 }
 
 .topnav a {
@@ -97,7 +96,7 @@ footer div {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
     color: white;
-    width: 800px;
+    min-width: 800px;
     margin: 20px auto 0 auto;
     padding: 20px;
 }
