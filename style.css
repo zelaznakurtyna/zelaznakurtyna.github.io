@@ -35,6 +35,10 @@ body {
     text-align: center;
     min-width: 800px;
 }
+li {
+    display: flex;
+    flex-direction: row;
+}
 .title {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
@@ -122,7 +126,29 @@ hr {
     color: black;
     font-size: 25px;
 }
+.notice {
+    display: block;
+    margin: auto;
+    width: 800px;
+    background-color: #4fa5b7;
+    border: 2px solid #4fa5b7;
+    border-radius: 10px;
+}
 
+.content {
+    background-color: white;
+    border: 2px solid #4fa5b7;
+    border-radius: 0 0 10px 10px;
+}
+.noticetitle {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 800px;
+    font-size: 30px;
+    margin-left: 20px;
+}
 footer {
     display: flex;
     background-color: #4fa5b7;
