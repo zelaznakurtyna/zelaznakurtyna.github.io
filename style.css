@@ -21,6 +21,9 @@ body {
 }
 .white {
     background-color: white;
+    min-width: 800px;
+    display: block;
+    margin: auto;
 }
 .material-symbols-outlined {
   font-variation-settings:
